@@ -1,5 +1,6 @@
 # UnicodeConversions
-C++ code implementing Unicode UTF-8/UTF-16 encoding conversions using Win32 APIs
+
+## C++ code implementing Unicode UTF-8/UTF-16 encoding conversions using Win32 APIs
 
 by Giovanni Dicanio (e-mail: `<giovanni.dicanio AT gmail.com>`)
 
