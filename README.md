@@ -16,4 +16,3 @@ This code uses STL strings (`std::string` for UTF-8 and `std::wstring` for UTF-1
 
 The included Visual Studio 2015 solution contains a simple _unit-test_ and a _performance benchmark_ testing this custom code vs. standard C++ Unicode encoding converters.
 
-The code has been written to be usable also in VS2010 C++ projects (so no VS2015-specific C++ features like brace-init or `constexpr` have been used).
