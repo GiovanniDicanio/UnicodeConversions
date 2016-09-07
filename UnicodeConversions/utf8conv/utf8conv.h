@@ -74,7 +74,7 @@ inline std::wstring Utf8ToUtf16(const std::string& utf8)
     }
 
     // Safely fail if an invalid UTF-8 character sequence is encountered
-    static const DWORD kFlags = MB_ERR_INVALID_CHARS;
+    constexpr DWORD kFlags = MB_ERR_INVALID_CHARS;
 
     // Safely cast the length of the source UTF-8 string (expressed in chars)
     // from size_t (returned by std::string::length()) to int 
@@ -160,7 +160,7 @@ inline std::string Utf16ToUtf8(const std::wstring& utf16)
     }
 
     // Safely fail if an invalid UTF-16 character sequence is encountered
-    static const DWORD kFlags = WC_ERR_INVALID_CHARS;
+    constexpr DWORD kFlags = WC_ERR_INVALID_CHARS;
 
     // Safely cast the length of the source UTF-16 string (expressed in wchar_ts)
     // from size_t (returned by std::wstring::length()) to int 

@@ -67,8 +67,8 @@ void RunTests();
 //------------------------------------------------------------------------------
 int main()
 {
-    static const int kExitOk = 0;
-    static const int kExitError = 1;
+    constexpr int kExitOk = 0;
+    constexpr int kExitError = 1;
     int exitCode = kExitOk;
 
     try
